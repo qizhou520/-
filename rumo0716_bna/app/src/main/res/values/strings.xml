@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">rumo0716_bna</string>
+    <string name="title_home">RUMO</string>
+    <string name="title_search">查證</string>
+    <string name="title_collect">收藏</string>
+    <string name="title_analysis">分析</string>
+    <string name="copy_link">複製連結</string>
+    <string name="cancel_collect">取消蒐藏</string>
+    <string name="find_similar">尋找類似文章</string>
+
+    <string-array name="spinner">
+        <item>請選擇</item>
+        <item>瀏覽數</item>
+        <item>收藏數</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/copy_link"
+        android:icon="@drawable/copy_link"
+        android:title="@string/copy_link" />
+
+    <item
+        android:id="@+id/cancel_collect"
+        android:icon="@drawable/cancel_collect"
+        android:title="@string/cancel_collect" />
+
+    <item
+        android:id="@+id/find_similar"
+        android:icon="@drawable/find_similar"
+        android:title="@string/find_similar" />
+
+
+</menu>

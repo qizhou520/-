@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>fragment_search.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000; font-style: italic;}
+.s1 { color: #0000ff; font-weight: bold;}
+.s2 { color: #000000;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #000080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+fragment_search.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+&lt;<span class="s4">androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s3">=&quot;.ui.search.SearchFragment&quot;</span>&gt;
+
+    &lt;<span class="s4">EditText</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;240dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;91dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;147dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;170dp&quot;</span>
+        <span class="s1">android:hint</span><span class="s3">=&quot;請輸入文章網址/文章&quot;</span>
+        <span class="s1">android:hyphenationFrequency</span><span class="s3">=&quot;none&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s3">=&quot;center&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textColorLink</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/imageView1&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;179dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;115dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;120dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;48dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;127dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;569dp&quot;</span>
+        <span class="s1">android:src</span><span class="s3">=&quot;@drawable/dialodbox&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;99dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;74dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;170dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;76dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;142dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;581dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;協助我們，建立字詞模型 抓出真假~&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;16sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;140dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;120dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;156dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;272dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;140dp&quot;</span>
+        <span class="s1">android:src</span><span class="s3">=&quot;@drawable/frame&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s3">=&quot;@+id/button&quot; </span>/&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/button&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;98dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;156dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;46dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;135dp&quot;</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/magnifier&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView3&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;文章關鍵字&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;20sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.347&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s3">=&quot;0.602&quot; </span>/&gt;
+
+    &lt;<span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/imageView&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;166dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;128dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;104dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;150dp&quot;</span>
+        <span class="s1">android:src</span><span class="s3">=&quot;@drawable/bubble&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/imageView2&quot; </span>/&gt;
+
+    &lt;<span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView5&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;40dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;52dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;大概有多假&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;20sp&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;@+id/imageView&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;@+id/imageView&quot; </span>/&gt;
+
+    &lt;<span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/imageView3&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;51dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;19dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;36dp&quot;</span>
+        <span class="s1">android:src</span><span class="s3">=&quot;@drawable/arrow&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;@+id/textView7&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;@+id/imageView4&quot; </span>/&gt;
+
+    &lt;<span class="s4">ImageView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;51dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;19dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;76dp&quot;</span>
+        <span class="s1">android:src</span><span class="s3">=&quot;@drawable/arrow2&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;@+id/imageView2&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;@+id/textView6&quot; </span>/&gt;
+
+    &lt;<span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView6&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;131dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;5dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;哪些字?&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;14sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toTopOf</span><span class="s3">=&quot;@+id/imageView4&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">TextView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/textView7&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;39dp&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;百分比%&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@color/colorDark&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;14sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;@+id/textView6&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s3">=&quot;@+id/textView6&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;@+id/textView6&quot; </span>/&gt;
+
+&lt;/<span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span>&gt;</pre>
+</body>
+</html>

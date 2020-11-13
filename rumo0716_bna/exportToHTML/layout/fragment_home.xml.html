@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>fragment_home.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000; font-style: italic;}
+.s1 { color: #0000ff; font-weight: bold;}
+.s2 { color: #000000;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #000080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+fragment_home.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+&lt;<span class="s4">androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s3">=&quot;.ui.home.HomeFragment&quot;</span>&gt;
+
+
+    &lt;<span class="s4">Spinner</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/spinner&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;81dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;46dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;329dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;56dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;1dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;629dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">SearchView</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/searchview&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;329dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;46dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;56dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s3">=&quot;82dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;629dp&quot;</span>
+        <span class="s1">android:imeOptions</span><span class="s3">=&quot;flagNoExtractUi&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot;</span>&gt;
+
+    &lt;/<span class="s4">SearchView</span>&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/btn_fake&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;73dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;25dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;338dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;163dp&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s3">=&quot;543dp&quot;</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/label&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;假&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s3">=&quot;center&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/btn_warn&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;73dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;25dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;338dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;240dp&quot;</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/label&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;小心&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s3">=&quot;center&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">Button</span>
+        <span class="s1">android:id</span><span class="s3">=&quot;@+id/btn_all&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;93dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;30dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s3">=&quot;318dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;200dp&quot;</span>
+        <span class="s1">android:background</span><span class="s3">=&quot;@drawable/red_label&quot;</span>
+        <span class="s1">android:text</span><span class="s3">=&quot;全部&quot;</span>
+        <span class="s1">android:textColor</span><span class="s3">=&quot;@android:color/white&quot;</span>
+        <span class="s1">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot; </span>/&gt;
+
+    &lt;<span class="s4">androidx.recyclerview.widget.RecyclerView</span>
+        <span class="s1">android:layout_width</span><span class="s3">=&quot;409dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s3">=&quot;628dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s3">=&quot;103dp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot;</span>
+        <span class="s1">tools:listitem</span><span class="s3">=&quot;@layout/recycler_view_item&quot; </span>/&gt;
+&lt;/<span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span>&gt;</pre>
+</body>
+</html>
